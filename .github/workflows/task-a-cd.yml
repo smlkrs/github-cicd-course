@@ -28,5 +28,5 @@ jobs:
             pytest ./task_a/task_a.py --html=report.html
         - uses: actions/upload-artifact@v4
           with:
-            name: report-artifact
+            name: ${{ matrix.os }}-${{ matrix.python-version  }}
             path: report.html
