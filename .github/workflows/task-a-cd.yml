@@ -16,3 +16,4 @@ jobs:
           run: |
             pip install -r ./task_a/requirements.txt
         	pytest ./task_a/task_a.py
+
