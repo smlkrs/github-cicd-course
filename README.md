@@ -36,7 +36,7 @@ Sources for practice lecture about containers used in NSWI026 MFF UK and SEPA4M3
 ### On pull request
 
 7. Change "task-a-cd.yml" to `task-a-ci.yml` and change to be executed on a pull-request, take a look on `pull_request`.
-8. Run this pull request only on changes tu folder `task_a`, take a look on `paths`.
+8. Run this pull request only on changes to folder `task_a`, take a look on `paths`.
 
 ### On manual event
 
