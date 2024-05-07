@@ -1,6 +1,6 @@
 name: task-a ci
 
-on: [pull]
+on: [pull_request]
 
 jobs:
   test:
