@@ -15,4 +15,4 @@ jobs:
         - name: Install dependencies
           run: |
             pip install -r ./task_a/requirements.txt
-        # TODO: run pytest
+        	pytest ./task_a/task_a.py
