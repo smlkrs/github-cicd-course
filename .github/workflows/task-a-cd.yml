@@ -25,4 +25,8 @@ jobs:
         - name: Install dependencies
           run: |
             pip install -r ./task_a/requirements.txt
-            pytest ./task_a/task_a.py
+            pytest ./task_a/task_a.py --html=report.html
+        - uses: actions/upload-artifact@v4
+          with:
+            name: report-artifact
+            path: ./task_a/report.html
